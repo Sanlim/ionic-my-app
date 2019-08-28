@@ -1,8 +1,7 @@
+import { Item } from './item'
 export interface Item{
-    id: number
-    title: string
-    url: string
-    by: string
-    time: number
-    score: number
+    offset: number
+    limit: number;
+    total?: number;
+    results: Item[];
 }

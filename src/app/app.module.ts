@@ -8,7 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { TimeAgoPipe } from './component/time-ago.pipe';
+import { TimeAgoPipe } from './components/time-ago.pipe';
 
 @NgModule({
   declarations: [AppComponent, TimeAgoPipe],
