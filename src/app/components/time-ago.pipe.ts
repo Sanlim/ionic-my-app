@@ -7,8 +7,7 @@ import * as moment from 'moment';
 export class TimeAgoPipe implements PipeTransform {
 
   transform(time: number): string {
-    return moment.duration(moment().diff(moment(time * 1000))).
-    humanize();
+    return moment.duration(moment().diff(moment(time * 1000))).humanize();
   }
 
 }
